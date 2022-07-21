@@ -7,6 +7,7 @@ nginx-ingress:
       enable: true
     enableSnippets: true
     image:
+      # repository: ghcr.io/aknot242/nginx-plus-ingress
       repository: ghcr.io/javajason/nginx-plus-ingress
       tag: latest
     nginxplus: true
